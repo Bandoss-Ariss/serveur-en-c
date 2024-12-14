@@ -1,0 +1,44 @@
+# Ignore all object files and compiled binaries
+*.o
+client
+server
+gestionVMS_MAIN
+client_windows
+
+# Ignore compiled executables
+*.olc3
+
+# Ignore Makefile backup files (if created during editing)
+Makefile~
+
+# Ignore temporary or log files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore text files for transactions
+trans2-A24.txt
+
+# Ignore compiled or generated C executables
+*.out
+
+# Ignore specific files that are likely generated during the build or testing process
+FIFO_TRANSACTIONS
+
+# Ignore intermediate or backup files
+*.old
+*.orig
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore files related to git itself
+.git/
